@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Website</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+      <link rel="stylesheet" href="style.css">
+
+      <style>
+      .card img{
+    height: 250px;
+}
+      </style>
+  </head>
+  <body>
+    <header>
+    <!-- navbar -->
+
+    <div class="container-fluid col-10">
+     
+      <nav class="navbar navbar-expand-lg" id="navbar">
+        <b class="bold">Home Page</b>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu ">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+          </svg></button>
+        <div class="collapse navbar-collapse" id="#menu ">
+          <ul class="navbar-nav ms-auto mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link " href="#Home">Home</a> </li>
+
+            <li class="nav-item">
+              <a class="nav-link " href="#about">About</a> </li>
+            
+              <li class="nav-item">
+              <a class="nav-link " href="#service">Services</a> </li>
+
+            <li class="na  v-item">
+              <a class="nav-link " href="#">Skills</a></li>
+          </ul>
+        </div>
+      </nav>
+      
+
+      <!-- Home -->
+
+      <section id="Home">
+        <div class="row g-3">
+          <div class="col-lg-6 col-md-6 col-12 order-1 ">
+<h1 class="display-6">Welcome To<br> <span>Full Stack Web Developer</span></h1>
+<p class="my-lg-2 my-3"> MERN stack is a collection of technologies that help developers build robust and scalable web applications using JavaScript. The acronym “MERN” stands for MongoDB, Express, React, and Node. js, with each component playing a role in the development process.</p>
+      <button class="btn btn-success  my-lg-3 my-3">Get Started</button>    
+</div>
+
+          <div class="col-lg-6 col-12 py-lg-0 py-3">
+            <img src="be-your-mern-stack-developer.png" class="img-fluid">
+
+          </div>
+
+        </div>
+
+      </section>
+
+
+      <!-- about -->
+
+      <section id="about">
+        <div class="row g-3">
+          <div class="col-lg-6 col-md-6 col-12 py-lg-0 py-3 order-2 ">
+            <img src="f20d0b2ae6003f52c4489169f57403cd.jpg" class="img-fluid">
+          </div>
+          <div class="col-lg-6 col-md-6 col-12 pt-5">
+            <h6 style="font-size: 40px;">ABOUT US</h6>
+            <h1 class="display-6"><span>Frontend</span></h1>
+            <p>Full stack engineers are responsible for both front-end and back-end development, making them a vital asset to any software development team. From designing user interfaces (UI) to developing complex server-side logic, these professionals are equipped with the skills needed to build end-to-end solutions.</p>
+
+      <button class="btn btn-warning  my-lg-3 my-3">Services</button>    
+</div>
+          </div>
+      </section>
+
+      <!-- services -->
+
+      <section id="service">
+        <div class="row g-3">
+          <h1 class="text-center">OUR SERVICES</h1>
+          <div class="col-md-4">
+            <div class="card shadow">
+              <img src="a57f7940a24d9ddbbe2aa4e72f5c48f5.jpg" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title">Coding</h5>
+                <p class="card-text">A computer is a machine that can be programmed to automatically carry out sequences of arithmetic or logical operations (computation). Modern digital electronic computers can perform generic sets of operations known as programs. These programs enable computers to perform a wide range of tasks. </p>
+                  <a href="#" class="btn btn-secondary my-2">Learn More</a>
+               
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card shadow">
+              <img src="297d6794dcc3241e16c7682a5b50f5a1.jpg" class="card-img-top rounded">
+              <div class="card-body">
+                <h5 class="card-title">Hardware Components</h5>
+                <p class="card-text">Computer hardware includes the physical parts of a computer, such as the central processing unit (CPU),random-access memory (RAM),motherboard,computer data storage,graphics card,sound card, and computer case.It includes external devices such as a monitor,mouse,keyboard,and speakers.</p>
+                  <a href="#" class="btn btn-secondary my-2">Learn More</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card shadow">
+              <img src="45f65cee66cc00c51c13bd1d7e3186e1.jpg" class="card-img-top rounded">
+              <div class="card-body">
+                <h5 class="card-title">Developer courses</h5>
+                <p class="card-text">In computing, a solution stack or software stack is a set of software subsystems or components needed complete platform such that no additionato create a complete platform such that no additional software is needed to support applications.Applications are said to "run on"or "run on top of"the resulting platform.</p>
+                  <a href="#" class="btn btn-secondary  my-2">Learn More</a>
+                
+              </div>
+            </div>
+          </div>
+      
+        </div>
+      </section>
+    </div>
+     
+       <footer class="bg-dark text-white py-3 text-center gap-5">
+        <p class="mb-0">&copy | All Rights Reserved | 2025</p>
+       </footer>
+
+     <script src="Navigating the Landscape of Full Stack Development_ A Comprehensive Guide for LinkedIn Professionals.jpg " integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+  </body>
+</html>
